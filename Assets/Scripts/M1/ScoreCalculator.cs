@@ -45,12 +45,22 @@ public class ScoreCalculator : MonoBehaviour
     }
     int GetScore(string team)
     {
-        if (team == "TeamA") 
+        if (team == "TeamA")
+        {
+            scoreTeamA += 1;
+        }
+        else if (team == "TeamB")
+        {
+            scoreTeamB += 1;
+        }
     }
 
     string GetWinner()
     {
-
+        if (scoreTeamA > scoreTeamB)
+        {
+            
+        }
     }
 
     void ResetScores()
