@@ -4,7 +4,7 @@ public class MusicPlayer : MonoBehaviour
 {
     private string currentSong = "Dash By Nmixx";
     private bool isPlaying = false;
-    private float volume = 1.0f;
+    //private float volume = 1.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
