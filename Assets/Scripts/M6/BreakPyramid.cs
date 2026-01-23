@@ -22,11 +22,11 @@
             EnoughManaAndWeapon = true;
 
         bool HealthAndBuff
-
         if (player.Health > 30 && player.HasBuff("Strength"));
             HealthAndBuff = true;
 
-        if()
+        if(!HealthAndbuff && !EnoughManaAndWeapon) return false;
+
         return true;
     }
     */
