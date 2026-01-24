@@ -105,7 +105,7 @@ class towerRange{
 
 
 
-towerRange ..> Tower
-towerPlacement ..> Tower
+towerRange ..> tower
+towerPlacement ..> tower
 
 ```
